@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafìo Control de tareas</title>
+    <link rel="stylesheet" href="./assets/Style/styles.css">
+</head>
+<body>
+    <h1>Control de Tareas</h1>
+    <div>
+        <input type="text" id="taskInput" placeholder="Nueva tarea">
+        <button onclick="addTask()">Agregar Tarea</button>
+    </div>
+    <div>
+        <h2>Resumen</h2>
+        <p>Total de tareas: <span id="totalTasks"></span></p>
+        <p>Tareas realizadas: <span id="completedTasks"></span></p>
+    </div>
+    <ul id="taskList"></ul>
+
+    <script src="./assets/Js/Index.js"></script>
+</body>
+</html>
